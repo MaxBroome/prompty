@@ -62,8 +62,11 @@ python3 get-script.py
 2. Inside of the ```web-interface``` folder, open ```index.html``` in your favorite web browser
 
 <b>That's it!</b>
-> [!NOTE]
+> [!WARNING]
 > The teleprompter web interface does <b>not</b> automatically update after you have ran the script again. So to see the updated version of the Google Doc <i>after</i> you have ran the python script, you can just refresh the tab.
+
+> [!TIP]
+> If you need the text flipped either horizontally or vertically (shuch as use on a teleprompter). You can do this by editing the ```defaultConfig``` variable in ```web-interface/assets/js/script.v122.js``` and changing <i>flipX</i> or <i>flipy</i> to <b>true</b>.
 
 <h1>:construction_worker: What's next</h1>
 
