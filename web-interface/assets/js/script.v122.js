@@ -34,7 +34,7 @@ var TelePrompter = (function() {
     backgroundColor: '#141414',
     dimControls: true,
     flipX: false,
-    flipY: true,
+    flipY: false,
     fontSize: 80,
     pageSpeed: 35,
     pageScrollPercent: 0,
