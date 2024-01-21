@@ -4,7 +4,7 @@ from googleapiclient.discovery import build
 
 # Define file paths and document ID
 CREDENTIALS_FILE = 'creds.json'  # Google Cloud API credentials file
-DOCUMENT_ID = '1eTTKXHAICFw65kOWhC1dkXbM2FBctEG_yf-Dp6FXc_Y'  # ID of the Google Docs document
+DOCUMENT_ID = '<GOOGLE DOCUMENT ID>'  # ID of the Google Docs document, you can find this url like such: docs.google.com/document/d/DOCUMENT_ID/omgwtfbbq
 
 # Authenticate and create the Google Docs API service using service account credentials
 credentials = service_account.Credentials.from_service_account_file(
@@ -38,10 +38,8 @@ def get_text_from_document(document_id):
 
     return '\n'.join(text).strip()  # Strip to remove leading/trailing whitespace
 
-# [Previous Python script code]
-
 if __name__ == '__main__':
-    # Get text content from the specified Google Docs document
+    # Get text content from the specified Google Doc
     document_text = get_text_from_document(DOCUMENT_ID)
 
     # Split the text into blocks based on 2 or more consecutive line breaks
@@ -50,7 +48,7 @@ if __name__ == '__main__':
     # Rejoin the text blocks with at least two line breaks in between
     formatted_text = '<br><br>'.join(text_blocks)
 
-    # Now let's replace the content in the HTML file
+    # Replace the content in the HTML file
     html_file_path = 'web-interface/index.html'  # Path to your HTML file
     with open(html_file_path, 'r', encoding='utf-8') as file:
         html_content = file.read()
