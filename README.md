@@ -19,7 +19,7 @@ Copy the project to your system using Git or downloading and extracting the zip 
 
 #### Using Git
 ```bash
-git clone https://github.com/MaxBroome/prompty
+git clone https://github.com/MaxBroome/prompty.git
 ```
 Then naviagate to the prompty directory.
 ## Installing the necessary packages for the Python script
