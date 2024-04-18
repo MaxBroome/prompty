@@ -1,7 +1,7 @@
 <img src="https://i.ibb.co/kMPVn42/Prompty.png" alt="prompty logo" width="400"/>
 <h2>Automatically import a google document into a web-based teleprompter app!</h2>
 
-<img src="https://i.ibb.co/MDsbxTb/Capture.png" alt="screenshot" width="550"/>
+<img src="web-interface/assets/web-screenshot.png" alt="screenshot" width="550"/>
 <i>Teleprompter interface screenshot</i>
 
 :rotating_light: This is super barebones, and <b>not</b> recomened for production! :rotating_light:
